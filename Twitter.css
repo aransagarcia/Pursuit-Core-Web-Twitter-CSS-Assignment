@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    height: 95vh;
+    width: 50vw;
+    background-color: #1fA2f2;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.left svg{
+    position: absolute;
+    height:140vh;
+    right: -80vh;
+    top:-20vh;
+}
+
+.right {
+    height: 95vh;
+    width: 50vw;
+    background-color:white;
+}
+
+.left--article{
+    color: whitesmoke;
+    max-width: 440px;
+    position: relative;
+}
+
+.left--article span{
+    display:block;
+font-size: 27px;
+font-weight:bold;
+}
+
+.left--article h5 {
+    font-size: 17px;
+}
+
+.left--article-div{
+    display:flex;
+    margin: 30px 0px;
+}
+
+.left--article-div span{
+    margin: 10px 10px 0px 0px; 
+}
+
+
+.left--article-div h5{
+    margin: 0px; 
+}
+
+.left--article-div p{
+    margin: 5px 0px 0px 0px;
+    font-size:14px;
+}
+
+.right{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+}
+
+.right--article-submit{
+    margin:10;
+}
+.right--article-submit ul li{
+    list-style-type:none;
+}
+
+footer{
+    text-decoration:none;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer ul li{
+    font-size: 12px;
+    text-decoration: none;
+    display:inline;
+}
+
+.footer--div{
+    display:inline;
+}
+
+#birdlogo {
+    height:100px;
+    width: 100px;
+    margin: 10px 10px; 
+}
+
+#LoginButton{
+   border-radius: 25px; 
+   padding: 10px;
+   border-color:#1fA2f2;
+}
